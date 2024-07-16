@@ -1,10 +1,6 @@
 # Foro Hub (Proyecto Backend)
 
-## Descripción
-En este emocionante desafío de programación dado por el [Programa ONE](https://www.oracle.com/pe/education/oracle-next-education/) junto a [Alura Latam](https://www.aluracursos.com/).
-En este desafío, llamado ForoHub: en él, vamos a replicar este proceso a nivel de back end y, para eso, crearemos una API REST usando Spring, utilizando el sistema agil de desarrollo en Trello.
-
-Nuestra API se centrará específicamente en los tópicos, y debe permitir a los usuarios:
+La API se centrará específicamente en los tópicos, y debe permitir a los usuarios:
 
 * Crear un nuevo tópico;
 * Mostrar todos los tópicos creados;
@@ -12,14 +8,14 @@ Nuestra API se centrará específicamente en los tópicos, y debe permitir a los
 * Actualizar un tópico;
 * Eliminar un tópico.
 
-Nuestro objetivo con este challenge es implementar una API REST con las siguientes funcionalidades:
+El objetivo principal es implementar una API REST que incluya:
 
-* API con rutas implementadas siguiendo las mejores prácticas del modelo REST;
-* Validaciones realizadas según las reglas de negocio;
-* Implementación de una base de datos relacional para la persistencia de la información;
-* Servicio de autenticación/autorización para restringir el acceso a la información.
+* Rutas API implementadas siguiendo las mejores prácticas REST.
+* Validaciones de acuerdo con las reglas de negocio.
+* Utilización de una base de datos relacional para la persistencia de datos.
+* Implementación de un sistema de autenticación/autorización para restringir el acceso a la información.
 
-## Construido Con 🛠️
+## Construcción
 
 Tecnologias con las que fue trabajado el proyecto:
 
@@ -60,7 +56,7 @@ Dependencias para agregar al crear el proyecto en [Spring Initializr](https://st
 Dependencia adicional a agregar para Autenticacion:
 - [JWT](https://github.com/auth0/java-jwt)
 
-## Ejecucion 🚀
+## Para sy ejecucion
 
 1. Primero crearemos la base de datos con el nombre 'foro_hub' en MySQL
 2. Seguidamente configuramos el archivo 'application.properties' para conectarnos a la base de datos:
@@ -92,14 +88,5 @@ Este proyecto tendra mejoras a futuro con las especificaciones mencionadas:
   /respuestas
 * Documentar la API con SpringFox Swagger, ya que ofrece una interfaz amigable y accesible, así como una forma de documentación automática generada simultáneamente con el desarrollo de la API.
 
-## Versionado 📌
+it](https://git-scm.com) para el control de versiones.
 
-Usamos [Git](https://git-scm.com) para el control de versiones.
-## Autores ✒️
-
-- **Alex Helder Huancara CC.** - _Trabajo inicial_ - [Alex Helder Huancara CC.](https://github.com/AlexHelder-Tyzer)
-
-## Licencia 📄
-
-Este proyecto está libre.
-**
